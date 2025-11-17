@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "sink",
+  "name": "sinktoto",
   "main": "dist/server/index.mjs",
   "assets": {
     "binding": "ASSETS",
@@ -21,7 +21,7 @@
       "dataset": "sink"
     }
   ],
-  "kv_namespaces": "sinktoto",
+  "kv_namespaces": [
     {
       "binding": "KV",
       "id": "2cb9a90615e14712a9ba8fcd9e24bbcf" // IMPORTANT: Change this to your KV namespace ID
